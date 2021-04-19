@@ -39,6 +39,6 @@ printf ("usage: %s server_host numero1 numero2\n", argv[0]);
 exit (1);
 }
 host = argv[1];
-sub_prog_1 (host, atoi(argv[2]), atoi(argv[3]));
+mult_prog_1 (host, atoi(argv[2]), atoi(argv[3]));
 exit (0);
 }
