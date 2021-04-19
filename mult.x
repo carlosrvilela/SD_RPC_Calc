@@ -4,7 +4,7 @@ struct numbers{
 };
 
 program MULT_PROG{
-	versions MULT_VERS{
+	version MULT_VERS{
 		int sub(numbers)=1;
 	}=1;
 }=0x23451113;
