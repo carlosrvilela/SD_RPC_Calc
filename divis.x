@@ -5,6 +5,6 @@ struct numbers{
 
 program DIVIS_PROG{
 	version DIVIS_VERS{
-		int sub(numbers)=1;
+		int divis(numbers)=1;
 	}=1;
 }=0x23451114;
