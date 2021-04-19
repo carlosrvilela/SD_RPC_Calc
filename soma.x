@@ -4,7 +4,7 @@ struct numbers{
 };
 
 program ADD_PROG{
-	versions ADD_VERS{
+	version ADD_VERS{
 		int add(numbers)=1;
 	}=1;
 }=0x23451111;
