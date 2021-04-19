@@ -1,11 +1,11 @@
-#include "mult.h"
+#include "divis.h"
 
 void
 divis_prog_1(char *host, int x, int y)
 {
 CLIENT *clnt;
 int *result_1;
-numbers mult_1_arg;
+numbers divis_1_arg;
 #ifndef DEBUG
 clnt = clnt_create (host, DIVIS_PROG, DIVIS_VERS, "udp");
 if (clnt == NULL) {
